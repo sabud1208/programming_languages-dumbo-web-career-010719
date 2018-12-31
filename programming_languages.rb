@@ -6,8 +6,8 @@ def reformat_languages(languages)
   languages.each do |style, data|
     data.each do |lang, type|
       if new_hash.has_key?(lang)
-        binding.pry
         new_hash[lang][style]
+        
       else
         new_hash[lang] = type
         new_hash[:style] = style
