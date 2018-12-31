@@ -5,7 +5,7 @@ def reformat_languages(languages)
 
   languages.each do |style, description|
     description.each do |k, v|
+        binding.pry
     end
-    binding.pry
   end
 end
